@@ -1,6 +1,10 @@
 january: 
   xfade: 5.0
   pause: 10.0
+  startDate: 01-01
+  endDate: 01-31
+  startTime: 17.0
+  endTime: 22.0
   palette:
     - { 17: "#0044ff", 
         20: "#8800ff",
@@ -27,6 +31,10 @@ january:
 february:
   xfade: 5.0
   pause: 10.0
+  startDate: 02-01
+  endDate: 02-28
+  startTime: 17.0
+  endTime: 22.0
   palette:
     - { 17: "#285F62", 
         20: "#5EAC96", 
@@ -67,6 +75,10 @@ february:
 march:
   xfade: 5.0
   pause: 10.0
+  startDate: 03-01
+  endDate: 03-31
+  startTime: 18.0
+  endTime: 22.0
   palette:
     - { 65: "#F9D423", 
         57: "#EDE574", 
@@ -100,6 +112,10 @@ march:
 april:
   xfade: 5.0
   pause: 10.0
+  startDate: 04-01
+  endDate: 04-30
+  startTime: 18.5
+  endTime: 22.0
   palette:
     - { 65: "#4488ff", 
         57: "#7FC7AF", 
@@ -133,6 +149,10 @@ april:
 may:
   xfade: 5.0
   pause: 10.0
+  startDate: 05-01
+  endDate: 05-31
+  startTime: 19.0
+  endTime: 22.0
   palette:
     - { 65: "#b3ff42", 
         57: "#00fa2e", 
@@ -173,6 +193,10 @@ may:
 june:
   xfade: 3.0
   pause: 0.0
+  startDate: 06-01
+  endDate: 06-30
+  startTime: 20.0
+  endTime: 22.0
   palette:
     - { 65: "#ff0000", 
         57: "#ff8800", 
@@ -220,6 +244,10 @@ june:
 july:
   xfade: 5.0
   pause: 10.0
+  startDate: 07-01
+  endDate: 07-31
+  startTime: 20.3
+  endTime: 23.0
   palette:
     - { 65: "#220088", 
         57: "#ffffff", 
@@ -267,6 +295,10 @@ july:
 august:
   xfade: 5.0
   pause: 10.0
+  startDate: 08-01
+  endDate: 08-31
+  startTime: 20.5
+  endTime: 23.0
   palette:
     - { 65: "#B20000", 
         57: "#F73100", 
@@ -314,6 +346,10 @@ august:
 september:
   xfade: 5.0
   pause: 10.0
+  startDate: 09-01
+  endDate: 09-30
+  startTime: 18.0
+  endTime: 22.0
   palette:
     - { 65: "#BF2A23", 
         57: "#A6AD3C", 
@@ -347,6 +383,10 @@ september:
 october:
   xfade: 1.0
   pause: 6.0
+  startDate: 10-01
+  endDate: 10-31
+  startTime: 18.5
+  endTime: 22.0
   palette:
     - { 65: "#ffff00", 
         57: "#ffff00", 
@@ -380,6 +420,10 @@ october:
 november:
   xfade: 5.0
   pause: 10.0
+  startDate: 11-01
+  endDate: 11-30
+  startTime: 18.0
+  endTime: 22.0
   palette:
     - { 65: "#FB6066", 
         57: "#FDD86E", 
@@ -411,26 +455,48 @@ november:
 
 
 december:
-  xfade: 0.5
-  pause: 0.5
+  xfade: 1.0
+  pause: 1.0
+  startDate: 12-01
+  endDate: 12-31
+  startTime: 17.0
+  endTime: 22.0
   palette:
-    - { 65: "#ff0000", 
-        57: "#00ff00", 
-        61: "#ffffff", 
-        53: "#ff0000", 
-        69: "#00ff00", 
-        77: "#ffffff"}
+    - { 65: "#ff0000", 57: "#00ff00", 61: "#ffffff", 53: "#ff0000", 69: "#00ff00", 77: "#ffffff"}
+    - { 65: "#00ff00", 57: "#ffffff", 61: "#ff0000", 53: "#00ff00", 69: "#ffffff", 77: "#ff0000"}
+    - { 65: "#ffffff", 57: "#ff0000", 61: "#00ff00", 53: "#ffffff", 69: "#ff0000", 77: "#00ff00"}
+    - { 65: "#ff0000", 57: "#00ff00", 61: "#ffffff", 53: "#ff0000", 69: "#00ff00", 77: "#ffffff"}
+    - { 65: "#00ff00", 57: "#ffffff", 61: "#ff0000", 53: "#00ff00", 69: "#ffffff", 77: "#ff0000"}
+    - { 65: "#ffffff", 57: "#ff0000", 61: "#00ff00", 53: "#ffffff", 69: "#ff0000", 77: "#00ff00"}
+    - { 65: "#ff0000", 57: "#00ff00", 61: "#ffffff", 53: "#ff0000", 69: "#00ff00", 77: "#ffffff"}
+    - { 65: "#00ff00", 57: "#ffffff", 61: "#ff0000", 53: "#00ff00", 69: "#ffffff", 77: "#ff0000"}
+    - { 65: "#ffffff", 57: "#ff0000", 61: "#00ff00", 53: "#ffffff", 69: "#ff0000", 77: "#00ff00"}
+    - { 65: "#ff0000", 57: "#00ff00", 61: "#ffffff", 53: "#ff0000", 69: "#00ff00", 77: "#ffffff"}
+    - { 65: "#00ff00", 57: "#ffffff", 61: "#ff0000", 53: "#00ff00", 69: "#ffffff", 77: "#ff0000"}
+    - { 65: "#ffffff", 57: "#ff0000", 61: "#00ff00", 53: "#ffffff", 69: "#ff0000", 77: "#00ff00"}
 
-    - { 65: "#00ff00", 
-        57: "#ff0000", 
-        61: "#00ff00", 
-        53: "#ffffff", 
-        69: "#ff0000", 
-        77: "#00ff00"}
+    - { 65: "#ff0000", 57: "#ff0000", 61: "#ff0000", 53: "#ff0000", 69: "#ff0000", 77: "#ff0000"}
+    - { 65: "#00ff00", 57: "#00ff00", 61: "#00ff00", 53: "#00ff00", 69: "#00ff00", 77: "#00ff00"}
+    - { 65: "#ffffff", 57: "#ffffff", 61: "#ffffff", 53: "#ffffff", 69: "#ffffff", 77: "#ffffff"}
+    - { 65: "#ff0000", 57: "#ff0000", 61: "#ff0000", 53: "#ff0000", 69: "#ff0000", 77: "#ff0000"}
+    - { 65: "#00ff00", 57: "#00ff00", 61: "#00ff00", 53: "#00ff00", 69: "#00ff00", 77: "#00ff00"}
+    - { 65: "#ffffff", 57: "#ffffff", 61: "#ffffff", 53: "#ffffff", 69: "#ffffff", 77: "#ffffff"}
+    - { 65: "#ff0000", 57: "#ff0000", 61: "#ff0000", 53: "#ff0000", 69: "#ff0000", 77: "#ff0000"}
+    - { 65: "#00ff00", 57: "#00ff00", 61: "#00ff00", 53: "#00ff00", 69: "#00ff00", 77: "#00ff00"}
+    - { 65: "#ffffff", 57: "#ffffff", 61: "#ffffff", 53: "#ffffff", 69: "#ffffff", 77: "#ffffff"}
+    - { 65: "#ff0000", 57: "#ff0000", 61: "#ff0000", 53: "#ff0000", 69: "#ff0000", 77: "#ff0000"}
+    - { 65: "#00ff00", 57: "#00ff00", 61: "#00ff00", 53: "#00ff00", 69: "#00ff00", 77: "#00ff00"}
+    - { 65: "#ffffff", 57: "#ffffff", 61: "#ffffff", 53: "#ffffff", 69: "#ffffff", 77: "#ffffff"}
 
-    - { 65: "#ffffff", 
-        57: "#00ff00", 
-        61: "#ff0000", 
-        53: "#00ff00", 
-        69: "#ffffff", 
-        77: "#ff0000"}
+    - { 65: "#ff0000", 57: "#ffffff", 61: "#ff0000", 53: "#ffffff", 69: "#ff0000", 77: "#ffffff"}
+    - { 65: "#ffffff", 57: "#ff0000", 61: "#ffffff", 53: "#ff0000", 69: "#ffffff", 77: "#ff0000"}
+    - { 65: "#ff0000", 57: "#ffffff", 61: "#ff0000", 53: "#ffffff", 69: "#ff0000", 77: "#ffffff"}
+    - { 65: "#ffffff", 57: "#ff0000", 61: "#ffffff", 53: "#ff0000", 69: "#ffffff", 77: "#ff0000"}
+    - { 65: "#ff0000", 57: "#ffffff", 61: "#ff0000", 53: "#ffffff", 69: "#ff0000", 77: "#ffffff"}
+    - { 65: "#ffffff", 57: "#ff0000", 61: "#ffffff", 53: "#ff0000", 69: "#ffffff", 77: "#ff0000"}
+    - { 65: "#ff0000", 57: "#ffffff", 61: "#ff0000", 53: "#ffffff", 69: "#ff0000", 77: "#ffffff"}
+    - { 65: "#ffffff", 57: "#ff0000", 61: "#ffffff", 53: "#ff0000", 69: "#ffffff", 77: "#ff0000"}
+    - { 65: "#ff0000", 57: "#ffffff", 61: "#ff0000", 53: "#ffffff", 69: "#ff0000", 77: "#ffffff"}
+    - { 65: "#ffffff", 57: "#ff0000", 61: "#ffffff", 53: "#ff0000", 69: "#ffffff", 77: "#ff0000"}
+
+    
